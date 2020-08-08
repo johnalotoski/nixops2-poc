@@ -1,0 +1,3 @@
+use nix
+unset PYTHONPATH
+export NIX_PATH="nixpkgs=$(nix eval --impure --expr  '(import ./nix/default.nix {}).path')"

@@ -1,0 +1,74 @@
+{
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "303f442c43f918bc43400ab4a0b662a82ca7748b",
+        "sha256": "19z1qypd6zd4qzhrhjm7j55v85fzf8wln8l9vslvn9dpspcwxv7c",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/303f442c43f918bc43400ab4a0b662a82ca7748b.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixops-core": {
+        "branch": "nixops-core-pr-int",
+        "description": "NixOps, the NixOS-based cloud deployment tool",
+        "homepage": "http://nixos.org/",
+        "owner": "input-output-hk",
+        "repo": "nixops",
+        "rev": "2a94052d3d69953d098b917b392f2e134b499791",
+        "sha256": "1l8x0w4b67yvnqjww299f53vcy3m0bxv33prcg4slwmih8hssdhz",
+        "type": "tarball",
+        "url": "https://github.com/input-output-hk/nixops/archive/2a94052d3d69953d098b917b392f2e134b499791.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixops-libvirtd": {
+        "branch": "fix-for-latest-nix",
+        "description": "NixOps libvirtd backend plugin [maintainer=@AmineChikhaoui]",
+        "homepage": "",
+        "owner": "input-output-hk",
+        "repo": "nixops-libvirtd",
+        "rev": "efb48a99837403622d8b89a051a3df4ac52cee51",
+        "sha256": "0dh799qq24wigvys8zkw8q4lkjsif6yx5h0kvndr8f8b17vb439j",
+        "type": "tarball",
+        "url": "https://github.com/input-output-hk/nixops-libvirtd/archive/efb48a99837403622d8b89a051a3df4ac52cee51.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixops-packet": {
+        "branch": "c2-medium-reserved-changes",
+        "description": "NixOps Packet.net Plugin",
+        "homepage": null,
+        "owner": "input-output-hk",
+        "repo": "nixops-packet",
+        "rev": "b96a78c57d315bb292318f7fb4f198b1483e188b",
+        "sha256": "15b7x6rilhmg42wmprqjaqadwcn8351a4wkf76m90rfqsk1piw64",
+        "type": "tarball",
+        "url": "https://github.com/input-output-hk/nixops-packet/archive/b96a78c57d315bb292318f7fb4f198b1483e188b.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixos-20.03",
+        "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
+        "homepage": "https://github.com/NixOS/nixpkgs",
+        "owner": "NixOS",
+        "repo": "nixpkgs-channels",
+        "rev": "825c68c4ae72b5563ac63826795de25189fc274b",
+        "sha256": "01n02n1mlwdcvbxp3lmh20341cx0k35bxq5138hjjrmaimmya16z",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs-channels/archive/825c68c4ae72b5563ac63826795de25189fc274b.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs-nixops2": {
+        "branch": "master",
+        "description": "Nix Packages collection",
+        "homepage": null,
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "714fac4cc9ba9b0ef29964c8b7fd9d50455aa380",
+        "sha256": "0frby6q42v1pg72vz5n7m31m095k03y28cqfhly0w62n7m7km6ck",
+        "type": "tarball",
+        "url": "https://github.com/nixos/nixpkgs/archive/714fac4cc9ba9b0ef29964c8b7fd9d50455aa380.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
