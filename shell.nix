@@ -9,7 +9,9 @@ let
     mkdir $out/bin
     ln -s ${pkgs.nixops2}/bin/* $out/bin
     rm $out/bin/nixops
+    rm $out/bin/charon
     makeWrapper ${pkgs.nixops2}/bin/nixops $out/bin/nixops2
+    makeWrapper ${pkgs.nixops2}/bin/charon $out/bin/charon2
   '';
 in pkgs.mkShell {
   buildInputs = with pkgs; [
